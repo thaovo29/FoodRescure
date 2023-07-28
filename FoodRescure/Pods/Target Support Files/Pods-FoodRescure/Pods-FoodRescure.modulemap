@@ -1,0 +1,6 @@
+framework module Pods_FoodRescure {
+  umbrella header "Pods-FoodRescure-umbrella.h"
+
+  export *
+  module * { export * }
+}

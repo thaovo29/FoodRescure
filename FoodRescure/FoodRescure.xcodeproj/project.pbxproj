@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2677D2E12A73ADFC004D58CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D2E02A73ADFC004D58CD /* AppDelegate.swift */; };
+		2677D2E32A73ADFC004D58CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D2E22A73ADFC004D58CD /* SceneDelegate.swift */; };
+		2677D2E52A73ADFC004D58CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D2E42A73ADFC004D58CD /* ViewController.swift */; };
+		2677D2E82A73ADFC004D58CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2677D2E62A73ADFC004D58CD /* Main.storyboard */; };
+		2677D2EB2A73ADFC004D58CD /* FoodRescure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2677D2E92A73ADFC004D58CD /* FoodRescure.xcdatamodeld */; };
+		2677D2ED2A73ADFD004D58CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2677D2EC2A73ADFD004D58CD /* Assets.xcassets */; };
+		2677D2F02A73ADFD004D58CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2677D2EE2A73ADFD004D58CD /* LaunchScreen.storyboard */; };
+		2677D2FB2A73ADFD004D58CD /* FoodRescureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D2FA2A73ADFD004D58CD /* FoodRescureTests.swift */; };
+		2677D3052A73ADFD004D58CD /* FoodRescureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3042A73ADFD004D58CD /* FoodRescureUITests.swift */; };
+		2677D3072A73ADFD004D58CD /* FoodRescureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2677D3062A73ADFD004D58CD /* FoodRescureUITestsLaunchTests.swift */; };
+		A2ED981884535DC33CF6435C /* Pods_FoodRescure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F728CAA97154FA2D55CB109 /* Pods_FoodRescure.framework */; };
+		AC92332330E9E501EF6F8333 /* Pods_FoodRescure_FoodRescureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F12D6106B1394BA7651951F /* Pods_FoodRescure_FoodRescureUITests.framework */; };
+		F0543A0E3831BAAB75F23FA0 /* Pods_FoodRescureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F1FD3DC8516F953BE9FA9A /* Pods_FoodRescureTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2677D2F72A73ADFD004D58CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2677D2D52A73ADFC004D58CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2677D2DC2A73ADFC004D58CD;
+			remoteInfo = FoodRescure;
+		};
+		2677D3012A73ADFD004D58CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2677D2D52A73ADFC004D58CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2677D2DC2A73ADFC004D58CD;
+			remoteInfo = FoodRescure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2677D2DD2A73ADFC004D58CD /* FoodRescure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRescure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2677D2E02A73ADFC004D58CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2677D2E22A73ADFC004D58CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2677D2E42A73ADFC004D58CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2677D2E72A73ADFC004D58CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2677D2EA2A73ADFC004D58CD /* FoodRescure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodRescure.xcdatamodel; sourceTree = "<group>"; };
+		2677D2EC2A73ADFD004D58CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2677D2EF2A73ADFD004D58CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2677D2F12A73ADFD004D58CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2677D2F62A73ADFD004D58CD /* FoodRescureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodRescureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2677D2FA2A73ADFD004D58CD /* FoodRescureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRescureTests.swift; sourceTree = "<group>"; };
+		2677D3002A73ADFD004D58CD /* FoodRescureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodRescureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2677D3042A73ADFD004D58CD /* FoodRescureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRescureUITests.swift; sourceTree = "<group>"; };
+		2677D3062A73ADFD004D58CD /* FoodRescureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRescureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2979E2541C2182DCCFBCCF21 /* Pods-FoodRescureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRescureTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodRescureTests/Pods-FoodRescureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F728CAA97154FA2D55CB109 /* Pods_FoodRescure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRescure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F12D6106B1394BA7651951F /* Pods_FoodRescure_FoodRescureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRescure_FoodRescureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		497A47E30B102D3D031DE960 /* Pods-FoodRescureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRescureTests.release.xcconfig"; path = "Target Support Files/Pods-FoodRescureTests/Pods-FoodRescureTests.release.xcconfig"; sourceTree = "<group>"; };
+		49F1FD3DC8516F953BE9FA9A /* Pods_FoodRescureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRescureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		703888D4549C2FB92569C842 /* Pods-FoodRescure-FoodRescureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRescure-FoodRescureUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodRescure-FoodRescureUITests/Pods-FoodRescure-FoodRescureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98BBD956FE50C818D40BA804 /* Pods-FoodRescure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRescure.release.xcconfig"; path = "Target Support Files/Pods-FoodRescure/Pods-FoodRescure.release.xcconfig"; sourceTree = "<group>"; };
+		ECF323375179D52DD6512D96 /* Pods-FoodRescure-FoodRescureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRescure-FoodRescureUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodRescure-FoodRescureUITests/Pods-FoodRescure-FoodRescureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F26B4AFC74965CAB31791C30 /* Pods-FoodRescure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRescure.debug.xcconfig"; path = "Target Support Files/Pods-FoodRescure/Pods-FoodRescure.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2677D2DA2A73ADFC004D58CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ED981884535DC33CF6435C /* Pods_FoodRescure.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677D2F32A73ADFD004D58CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0543A0E3831BAAB75F23FA0 /* Pods_FoodRescureTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677D2FD2A73ADFD004D58CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC92332330E9E501EF6F8333 /* Pods_FoodRescure_FoodRescureUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2677D2D42A73ADFC004D58CD = {
+			isa = PBXGroup;
+			children = (
+				2677D2DF2A73ADFC004D58CD /* FoodRescure */,
+				2677D2F92A73ADFD004D58CD /* FoodRescureTests */,
+				2677D3032A73ADFD004D58CD /* FoodRescureUITests */,
+				2677D2DE2A73ADFC004D58CD /* Products */,
+				93079044D8F540B4E9B8D9E2 /* Pods */,
+				6B2F59C32EAC749AD4FF9629 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2677D2DE2A73ADFC004D58CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2677D2DD2A73ADFC004D58CD /* FoodRescure.app */,
+				2677D2F62A73ADFD004D58CD /* FoodRescureTests.xctest */,
+				2677D3002A73ADFD004D58CD /* FoodRescureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2677D2DF2A73ADFC004D58CD /* FoodRescure */ = {
+			isa = PBXGroup;
+			children = (
+				2677D2E02A73ADFC004D58CD /* AppDelegate.swift */,
+				2677D2E22A73ADFC004D58CD /* SceneDelegate.swift */,
+				2677D2E42A73ADFC004D58CD /* ViewController.swift */,
+				2677D2E62A73ADFC004D58CD /* Main.storyboard */,
+				2677D2EC2A73ADFD004D58CD /* Assets.xcassets */,
+				2677D2EE2A73ADFD004D58CD /* LaunchScreen.storyboard */,
+				2677D2F12A73ADFD004D58CD /* Info.plist */,
+				2677D2E92A73ADFC004D58CD /* FoodRescure.xcdatamodeld */,
+			);
+			path = FoodRescure;
+			sourceTree = "<group>";
+		};
+		2677D2F92A73ADFD004D58CD /* FoodRescureTests */ = {
+			isa = PBXGroup;
+			children = (
+				2677D2FA2A73ADFD004D58CD /* FoodRescureTests.swift */,
+			);
+			path = FoodRescureTests;
+			sourceTree = "<group>";
+		};
+		2677D3032A73ADFD004D58CD /* FoodRescureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2677D3042A73ADFD004D58CD /* FoodRescureUITests.swift */,
+				2677D3062A73ADFD004D58CD /* FoodRescureUITestsLaunchTests.swift */,
+			);
+			path = FoodRescureUITests;
+			sourceTree = "<group>";
+		};
+		6B2F59C32EAC749AD4FF9629 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F728CAA97154FA2D55CB109 /* Pods_FoodRescure.framework */,
+				3F12D6106B1394BA7651951F /* Pods_FoodRescure_FoodRescureUITests.framework */,
+				49F1FD3DC8516F953BE9FA9A /* Pods_FoodRescureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93079044D8F540B4E9B8D9E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F26B4AFC74965CAB31791C30 /* Pods-FoodRescure.debug.xcconfig */,
+				98BBD956FE50C818D40BA804 /* Pods-FoodRescure.release.xcconfig */,
+				703888D4549C2FB92569C842 /* Pods-FoodRescure-FoodRescureUITests.debug.xcconfig */,
+				ECF323375179D52DD6512D96 /* Pods-FoodRescure-FoodRescureUITests.release.xcconfig */,
+				2979E2541C2182DCCFBCCF21 /* Pods-FoodRescureTests.debug.xcconfig */,
+				497A47E30B102D3D031DE960 /* Pods-FoodRescureTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2677D2DC2A73ADFC004D58CD /* FoodRescure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2677D30A2A73ADFD004D58CD /* Build configuration list for PBXNativeTarget "FoodRescure" */;
+			buildPhases = (
+				99DA39C61E842EBF12D3687D /* [CP] Check Pods Manifest.lock */,
+				2677D2D92A73ADFC004D58CD /* Sources */,
+				2677D2DA2A73ADFC004D58CD /* Frameworks */,
+				2677D2DB2A73ADFC004D58CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodRescure;
+			productName = FoodRescure;
+			productReference = 2677D2DD2A73ADFC004D58CD /* FoodRescure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2677D2F52A73ADFD004D58CD /* FoodRescureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2677D30D2A73ADFD004D58CD /* Build configuration list for PBXNativeTarget "FoodRescureTests" */;
+			buildPhases = (
+				0BDA61CBE4B9A3E621BF669F /* [CP] Check Pods Manifest.lock */,
+				2677D2F22A73ADFD004D58CD /* Sources */,
+				2677D2F32A73ADFD004D58CD /* Frameworks */,
+				2677D2F42A73ADFD004D58CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2677D2F82A73ADFD004D58CD /* PBXTargetDependency */,
+			);
+			name = FoodRescureTests;
+			productName = FoodRescureTests;
+			productReference = 2677D2F62A73ADFD004D58CD /* FoodRescureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2677D2FF2A73ADFD004D58CD /* FoodRescureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2677D3102A73ADFD004D58CD /* Build configuration list for PBXNativeTarget "FoodRescureUITests" */;
+			buildPhases = (
+				2363E29FCF8CFACED2625DDD /* [CP] Check Pods Manifest.lock */,
+				2677D2FC2A73ADFD004D58CD /* Sources */,
+				2677D2FD2A73ADFD004D58CD /* Frameworks */,
+				2677D2FE2A73ADFD004D58CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2677D3022A73ADFD004D58CD /* PBXTargetDependency */,
+			);
+			name = FoodRescureUITests;
+			productName = FoodRescureUITests;
+			productReference = 2677D3002A73ADFD004D58CD /* FoodRescureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2677D2D52A73ADFC004D58CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2677D2DC2A73ADFC004D58CD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2677D2F52A73ADFD004D58CD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2677D2DC2A73ADFC004D58CD;
+					};
+					2677D2FF2A73ADFD004D58CD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2677D2DC2A73ADFC004D58CD;
+					};
+				};
+			};
+			buildConfigurationList = 2677D2D82A73ADFC004D58CD /* Build configuration list for PBXProject "FoodRescure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2677D2D42A73ADFC004D58CD;
+			productRefGroup = 2677D2DE2A73ADFC004D58CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2677D2DC2A73ADFC004D58CD /* FoodRescure */,
+				2677D2F52A73ADFD004D58CD /* FoodRescureTests */,
+				2677D2FF2A73ADFD004D58CD /* FoodRescureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2677D2DB2A73ADFC004D58CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677D2F02A73ADFD004D58CD /* LaunchScreen.storyboard in Resources */,
+				2677D2ED2A73ADFD004D58CD /* Assets.xcassets in Resources */,
+				2677D2E82A73ADFC004D58CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677D2F42A73ADFD004D58CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677D2FE2A73ADFD004D58CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BDA61CBE4B9A3E621BF669F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodRescureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2363E29FCF8CFACED2625DDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodRescure-FoodRescureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99DA39C61E842EBF12D3687D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodRescure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2677D2D92A73ADFC004D58CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677D2E52A73ADFC004D58CD /* ViewController.swift in Sources */,
+				2677D2EB2A73ADFC004D58CD /* FoodRescure.xcdatamodeld in Sources */,
+				2677D2E12A73ADFC004D58CD /* AppDelegate.swift in Sources */,
+				2677D2E32A73ADFC004D58CD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677D2F22A73ADFD004D58CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677D2FB2A73ADFD004D58CD /* FoodRescureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2677D2FC2A73ADFD004D58CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2677D3072A73ADFD004D58CD /* FoodRescureUITestsLaunchTests.swift in Sources */,
+				2677D3052A73ADFD004D58CD /* FoodRescureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2677D2F82A73ADFD004D58CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2677D2DC2A73ADFC004D58CD /* FoodRescure */;
+			targetProxy = 2677D2F72A73ADFD004D58CD /* PBXContainerItemProxy */;
+		};
+		2677D3022A73ADFD004D58CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2677D2DC2A73ADFC004D58CD /* FoodRescure */;
+			targetProxy = 2677D3012A73ADFD004D58CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2677D2E62A73ADFC004D58CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2677D2E72A73ADFC004D58CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2677D2EE2A73ADFD004D58CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2677D2EF2A73ADFD004D58CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2677D3082A73ADFD004D58CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2677D3092A73ADFD004D58CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2677D30B2A73ADFD004D58CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26B4AFC74965CAB31791C30 /* Pods-FoodRescure.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T46N62XKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodRescure/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tryip296.FoodRescure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2677D30C2A73ADFD004D58CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BBD956FE50C818D40BA804 /* Pods-FoodRescure.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T46N62XKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodRescure/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tryip296.FoodRescure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2677D30E2A73ADFD004D58CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2979E2541C2182DCCFBCCF21 /* Pods-FoodRescureTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T46N62XKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tryip296.FoodRescureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodRescure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodRescure";
+			};
+			name = Debug;
+		};
+		2677D30F2A73ADFD004D58CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497A47E30B102D3D031DE960 /* Pods-FoodRescureTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T46N62XKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tryip296.FoodRescureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodRescure.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodRescure";
+			};
+			name = Release;
+		};
+		2677D3112A73ADFD004D58CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703888D4549C2FB92569C842 /* Pods-FoodRescure-FoodRescureUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T46N62XKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tryip296.FoodRescureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodRescure;
+			};
+			name = Debug;
+		};
+		2677D3122A73ADFD004D58CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF323375179D52DD6512D96 /* Pods-FoodRescure-FoodRescureUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T46N62XKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tryip296.FoodRescureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodRescure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2677D2D82A73ADFC004D58CD /* Build configuration list for PBXProject "FoodRescure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2677D3082A73ADFD004D58CD /* Debug */,
+				2677D3092A73ADFD004D58CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2677D30A2A73ADFD004D58CD /* Build configuration list for PBXNativeTarget "FoodRescure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2677D30B2A73ADFD004D58CD /* Debug */,
+				2677D30C2A73ADFD004D58CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2677D30D2A73ADFD004D58CD /* Build configuration list for PBXNativeTarget "FoodRescureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2677D30E2A73ADFD004D58CD /* Debug */,
+				2677D30F2A73ADFD004D58CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2677D3102A73ADFD004D58CD /* Build configuration list for PBXNativeTarget "FoodRescureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2677D3112A73ADFD004D58CD /* Debug */,
+				2677D3122A73ADFD004D58CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2677D2E92A73ADFC004D58CD /* FoodRescure.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2677D2EA2A73ADFC004D58CD /* FoodRescure.xcdatamodel */,
+			);
+			currentVersion = 2677D2EA2A73ADFC004D58CD /* FoodRescure.xcdatamodel */;
+			path = FoodRescure.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2677D2D52A73ADFC004D58CD /* Project object */;
+}
