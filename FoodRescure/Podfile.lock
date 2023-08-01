@@ -1,3 +1,52 @@
-PODFILE CHECKSUM: 22000e1180c60912cd27bf73c88fbbed40e2f05d
+PODS:
+  - Differentiator (5.0.0)
+  - R.swift (7.3.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.16.0):
+    - SDWebImage/Core (= 5.16.0)
+  - SDWebImage/Core (5.16.0)
+
+DEPENDENCIES:
+  - R.swift
+  - RxCocoa
+  - RxDataSources
+  - RxGesture
+  - RxSwift (~> 6)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Differentiator
+    - R.swift
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: 2aea163b50bfcb569a2726b6a754c54a4506fcf6
+
+PODFILE CHECKSUM: ba51ecd03189ca533636364e589cc9e27c321450
 
 COCOAPODS: 1.12.1

@@ -4,6 +4,13 @@
 target 'FoodRescure' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+	pod 'RxSwift', '~> 6'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RxGesture'
+pod 'SDWebImage', '~> 5.0'
+
+pod 'R.swift'
 
   # Pods for FoodRescure
 

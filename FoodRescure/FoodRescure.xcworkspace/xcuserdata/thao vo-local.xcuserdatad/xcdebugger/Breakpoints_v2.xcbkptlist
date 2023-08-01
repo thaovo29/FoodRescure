@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7247A3BE-283B-4998-8B29-ABA659AFD85B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "786AB57B-0A6A-4C6B-8F58-2D5D68AFE28E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodRescure/Module/Home/Cells/RecentVisitTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "configureCollectionView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC263366-4955-4601-B367-07EAFC4E2200"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodRescure/Module/Home/Cells/RecentVisitTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "model"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F3815A3-D7C5-4054-BBC3-1C27EEB324E8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodRescure/Module/Home/Cells/RecentVisitTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "configureCollectionView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F3815A3-D7C5-4054-BBC3-1C27EEB324E8 - 1518bc735a8bd5b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FoodRescure.RecentVisitTableViewCell.configureCollectionView() -&gt; ()"
+                  moduleName = "FoodRescure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ThaoVo-local/projects/FoodRescure/FoodRescure/FoodRescure/Module/Home/Cells/RecentVisitTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1984">
+               </Location>
+               <Location
+                  uuid = "7F3815A3-D7C5-4054-BBC3-1C27EEB324E8 - 5ea2d84f55fa0c3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, FoodRescure.RestaurantCollectionViewCellModel, FoodRescure.RestaurantCollectionViewCell) -&gt; () in FoodRescure.RecentVisitTableViewCell.configureCollectionView() -&gt; ()"
+                  moduleName = "FoodRescure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ThaoVo-local/projects/FoodRescure/FoodRescure/FoodRescure/Module/Home/Cells/RecentVisitTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48A1D294-998A-4F18-B505-35DA5725B8A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodRescure/Module/Home/Cells/RecentVisitTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "configureCollectionView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
